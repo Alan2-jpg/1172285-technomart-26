@@ -1,7 +1,7 @@
 # Личный проект «Техномарт»
 
 * Студент: [Алан Хубулов](https://up.htmlacademy.ru/htmlcss/26/user/1172285).
-* Наставник: [Андрей Грачев](https://github.com/andreysgra).
+* Наставник: [Андрей Грачев](https://htmlacademy.ru/profile/id252055).
 
 ---
 
