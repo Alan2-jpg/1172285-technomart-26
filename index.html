@@ -196,11 +196,7 @@
 					<p>
 						Вы можете забрать товар сами,<br>заехав в наш офис:
 					</p>
-					<div class="popup">
-						<a href="#" class="map"><img src="img/layer-5.png" alt="Большая Конюшенная ул., 19">
-							<img src="img/popmap.jpg" width="970" height="476" alt="Увеличеная карта">
-						</a>
-					</div>
+					<a href="#" class="map"><img src="img/layer-5.png" alt="Большая Конюшенная ул., 19"></a>
 					<a href="#" class="email">Заблудились? Напишите нам!</a>
 					<form action="https://echo.htmlacademy.ru/" method="post">
 						<p>
@@ -209,10 +205,10 @@
 						</p>
 						<p>
 							<label for="email">Ваш email:</label>
-							<input id="email" type="textarea" name="email" placeholder="email@example.com">
+							<input id="email" type="email" name="email" placeholder="email@example.com">
 						</p>
 						<p><label for="text">Текст письма:</label>
-							<input id="text" type="textarea" name="text" placeholder="В свободной форме">
+							<textarea name="text" id="text" cols="30" rows="5">В свободной форме</textarea>
 						</p>
 						<button type="submit" value="Отправить">Отправить</button>
 					</form>
@@ -277,6 +273,9 @@
 			</div>
 		</div>
 	</footer>
+	<div class="map-popup">
+		<img src="img/popmap.jpg" width="970" height="476" alt="Увеличеная карта">
+	</div>
 </body>
 
 </html>
