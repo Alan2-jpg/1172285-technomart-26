@@ -1,0 +1,198 @@
+body {
+    margin: 0;
+    padding: 0;
+    
+    font-family: "Cuprum", Arial, sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 700;
+    color: #000;
+    text-transform: uppercase;  
+}
+a {
+    text-decoration: none;
+}
+.menu-star {
+    background-color: #6a7180;
+    
+}
+.logo {
+    position: relative;
+    padding: 14px 55px 10px;
+    font-size: 24px;
+    font-family: "Cuprum", sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    background-color: #ee3643;
+    text-align: left;
+}
+.search, .loop {
+    color: #fff;
+    padding-left: 40px;
+    line-height: 60px;
+    text-align: center;
+    padding-left: 40px;
+    
+}
+
+.bookmarks {
+    width: 160px;
+    padding-left: 14px;
+    color: #fff;
+    background-repeat: no-repeat;
+    background-image: url(../img/icon-bookmark.svg);
+}
+.cart {
+    width: 160px;
+    padding-left: 14px;
+    color: #fff;
+    background-image: url(../img/icon-cart.svg);
+    background-repeat: no-repeat;
+    
+}
+.order {
+    width: 160px;
+    padding-left: 14px;
+    color: #fff;
+    background-color: #35eb11;
+    background-repeat: no-repeat;
+    margin-right: 50px;
+    border-right: 50px;
+    
+
+}
+.cart, .order, .bookmarks {
+    text-align: right;
+    padding-top: 5px;
+    padding-right: 14px;
+    
+   
+}
+.citi {
+    padding-top: 20px;
+    padding-bottom: 24px;
+    
+}
+.internet {
+    color: #e20d0d;
+    font-size: 12px;
+    font-family: "Cuprum", sans-serif;
+    text-transform: capitalize;
+    text-align: left;
+}
+.phone {
+    font-size: 25px;
+    background-image: url(../img/icon-phone.svg);
+    background-repeat: no-repeat;
+    padding-right: 20px;
+    text-align: center;
+
+    
+}
+.punct {
+    color: #32425c;
+    font-size: 14px;
+    text-transform: capitalize;
+    text-align: center;
+}
+.enter {
+    color: #000;
+    text-transform: capitalize;
+    background-image: url(../img/icon-login.svg);
+    background-repeat: no-repeat;
+    padding-left: 30px;
+    text-align: justify;
+
+}
+.registration {
+    color: #000;
+    text-transform: capitalize;
+    padding-left: 30px;
+}
+.account {
+    text-align: right;
+    padding-right: 30px;
+    
+}
+.menu-two {
+    color: #fff;
+    background-color: #6a7180;
+    text-transform: capitalize;
+}
+.menu-menu, a {
+    color: #fff;
+    text-align: center;
+    padding-right: 25px;
+}
+.shoping {
+    width: 930px;
+    padding: 0;
+    margin: 0;
+    
+}
+.about {
+    padding-left: 20px;
+    
+}
+.article {
+    text-transform: capitalize;
+    font-size: 10px;
+    padding-left: 20px;
+    font-weight: 300;
+    
+}
+.traffic, a {
+    list-style: none;
+    color: #000;
+}
+.heder, p {
+    text-transform: capitalize;
+    padding-left: 20px;
+    font-weight: 300;
+}
+.buttons {
+    width: 100px;
+    height: 40px;
+    background-color: #ee3643;
+    padding:10px;
+    margin-top: 10px;
+    margin-bottom: 100px;
+    color: #fff;
+   
+
+}
+.email {
+    width: 100px;
+    height: 40px;
+    background-color: #ee3643;
+    color: #fff;
+    margin-top: 10px;
+    margin-bottom: 100px;
+    padding: 10px
+}
+.footer-upper {
+    background-color: #3d546e;
+    color: #fff;
+    list-style: none;
+}
+.address {
+    color: #fff;
+}
+.footer-upper, .site-menu, li, a {
+    color: #fff;
+}
+.oper {
+    color: #ffda96;
+    list-style: none;
+}
+.footer-lower {
+    background-color: #33445a;
+    color: #fff;
+    padding-top: 30px
+}
+.footer-oper {
+    color: #ffda96;
+    list-style: none;
+    margin: 0px;
+
+}
