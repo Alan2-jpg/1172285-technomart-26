@@ -4,27 +4,33 @@
 <head>
   <meta charset="UTF-8">
   <title>HTML Academy: Техномарт</title>
+  <link href="https://fonts.googleapis.com/css?family=Cuprum:400,700&display=swap&subset=cyrillic" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
 </head>
 
 <body>
   <header>
-    <div class="menu one">
+    <div class="menu-one">
       <a class="logo" href="#">Техномарт</a>
-      <form action="#">
+      <form action="https://echo.htmlacademy.ru/">
+        <svg class="loop" xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17">
+          <path fill="#6a7180"
+            d="M17 15.586l-3.542-3.542A7.465 7.465 0 0 0 15 7.5 7.5 7.5 0 1 0 7.5 15c1.71 0 3.282-.579 4.544-1.542L15.586 17 17 15.586zM2 7.5C2 4.467 4.467 2 7.5 2 10.532 2 13 4.467 13 7.5c0 3.032-2.468 5.5-5.5 5.5A5.506 5.506 0 0 1 2 7.5z" />
+        </svg>
+        <label class="look" for="menu one">Поиск</label>
         <input id="menu one" name="search" type="search">
-        <label for="menu one">Поиск</label>
       </form>
-      <a href="#">Закладки: 0</a>
-      <a href="#">Корзина: 10</a>
-      <a href="#">Оформить заказ</a>
+      <a class="zd" href="#">Закладки: 0</a>
+      <a class="cr" href="#">Корзина: 10</a>
+      <a class="or" href="#">Оформить заказ</a>
     </div>
     <div class="menu">
       <p>Интернет-магазин строительных материалов и инструментов для ремонта</p>
-      <p>+7 (812) 555-05-55</p>
+      <p class="iphone">+7 (812) 555-05-55</p>
       <ul class="user">
         <li>
-          <a href="#">Равшан Джамшутович</a>
-          <a href="index.html">Выход</a>
+          <a class="djmsut" href="#">Равшан Джамшутович</a>
+          <a class="clous" href="index.html">Выход</a>
         </li>
       </ul>
       <ul class="usnav">
@@ -35,11 +41,11 @@
           <a href="#">Личный кабинет</a>
         </li>
       </ul>
-      <p>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
+      <p class="house">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
     </div>
-    <div>
+    <div class="main-menu">
       <nav>
-        <a href="#">Главная</a>
+        <a href="index.html">Главная</a>
         <a href="#">Компания</a>
         <a href="catalog.html">Каталог</a>
         <a href="#">Новости</a>
@@ -50,7 +56,7 @@
     </div>
     <main>
       <section>
-        <ul>
+        <ul class="navigation">
           <li>
             <a href="index.html">Главная</a>
           </li>
@@ -74,40 +80,42 @@
           <span>—</span>
           <input type="text" name="max" aria-value="Максимальная цена" value="30000">
           <p>ПРОИЗВОДИТЕЛИ:</p>
-          <ul>
-            <li>
-              <input type="checkbox" name="manufacturer-bosch" id="manufacturer-bosch">
-              <label for="manufacturer-bosch">
-                Bosch</label>
-            </li>
-            <li>
-              <input type="checkbox" name="ИНТЕРСКОЛ" id="manufacturer-interckol">
-              <label for="manufacturer-interckol">
-                ИНТЕРСКОЛ</label>
-            </li>
-            <li>
-              <input type="checkbox" name="manufacturer-makita" id="manufacturer-makita"><label
-                for="manufacturer-makita">
-                MAKIta</label>
-            </li>
-            <li>
-              <input type="checkbox" name="manufacturer-dewalt" id="manufacturer-dewalt"><label
-                for="manufacturer-dewalt">
-                Dewalt</label>
-            </li>
-            <li>
-              <input type="checkbox" name="manufacturer-hitachi" id="manufacturer-hitachi"><label
-                for="manufacturer-hitachi">
-                Hitachi</label>
-            </li>
+          <div class="prodaction">
+            <ul>
+              <li>
+                <input type="checkbox" name="manufacturer-bosch" id="manufacturer-bosch">
+                <label for="manufacturer-bosch">
+                  Bosch</label>
+              </li>
+              <li>
+                <input type="checkbox" name="ИНТЕРСКОЛ" id="manufacturer-interckol">
+                <label for="manufacturer-interckol">
+                  ИНТЕРСКОЛ</label>
+              </li>
+              <li>
+                <input type="checkbox" name="manufacturer-makita" id="manufacturer-makita"><label
+                  for="manufacturer-makita">
+                  MAKIta</label>
+              </li>
+              <li>
+                <input type="checkbox" name="manufacturer-dewalt" id="manufacturer-dewalt"><label
+                  for="manufacturer-dewalt">
+                  Dewalt</label>
+              </li>
+              <li>
+                <input type="checkbox" name="manufacturer-hitachi" id="manufacturer-hitachi"><label
+                  for="manufacturer-hitachi">
+                  Hitachi</label>
+              </li>
+          </div>
           </ul>
           <p>ПИТАНИЕ:</p>
-          <ul>
-            <li>
+          <ul class="supply">
+            <li class="a">
               <input type="radio" name="work" id="the-akm">
               <label for="the-akm">Аккумуляторные</label>
             </li>
-            <li>
+            <li class="b">
               <input type="radio" name="work" id="network">
               <label for="network">Сетевые</label>
             </li>
@@ -148,13 +156,17 @@
             <a href="#">25500 Р.</a>
           </li>
           <li>
-            <div class="new">new</div>
-            <a href="#">Купить</a>
-            <a href="#">В закладки</a>
-            <h3>
-              <span>Перфоратор BOSCH BFG 2000</span>
-            </h3>
-            <a href="#">12500 Р.</a>
+            <div class="new">new
+              <div class="free">
+                <a href="#">Купить</a>
+                <a href="#">В закладки</a>
+              </div>
+
+              <h3>
+                <span>Перфоратор BOSCH BFG 2000</span>
+              </h3>
+              <a href="#">12500 Р.</a>
+            </div>
           </li>
           <li>
           <li class="catalog it">
