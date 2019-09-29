@@ -78,11 +78,7 @@ a {
 }
 .internet {
     color: #ee3643;
-    font-size: 16px;
-    font-family: "Cuprum", sans-serif;
-    text-transform: capitalize;
     text-align: left;
-    font-style: italic;
 }
 .phone p {
     font-size: 21px;
@@ -213,8 +209,6 @@ a {
 }
 .upper-menu li a  {
     color: #ffd180;
-    list-style: none; 
-    text-transform: capitalize;
     font-size: 18px;
     font-weight: 300;
     
@@ -225,7 +219,8 @@ a {
     color: #fff;
     padding-top: 30px
 }
-.footer-upper  {
+.footer-upper {
+    
     list-style: none;
     margin: 0px;
 
