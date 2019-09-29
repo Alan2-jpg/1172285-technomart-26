@@ -7,7 +7,6 @@ body {
     line-height: 24px;
     font-weight: 700;
     color: #000;
-    text-transform: uppercase;  
 }
 a {
     text-decoration: none;
@@ -48,6 +47,7 @@ a {
     width: 160px;
     padding-left: 14px;
     color: #fff;
+    background-color: #ee3643;
     background-image: url(../img/icon-cart.svg);
     background-repeat: no-repeat;
     
@@ -94,7 +94,7 @@ a {
 
     
 }
-.punct {
+.addres {
     color: #32425c;
     font-size: 14px;
     text-transform: capitalize;
@@ -106,7 +106,6 @@ a {
     background-image: url(../img/icon-login.svg);
     background-repeat: no-repeat;
     padding-left: 30px;
-    text-align: justify;
     font-size: 21px;
 
 }
@@ -208,8 +207,11 @@ a {
 }
  .site-menu, li, a {
     color: #fff;
+    font-size: 18px;
+    font-weight: 300;
+    text-transform: capitalize;
 }
-.oper-menu li a  {
+.upper-menu li a  {
     color: #ffd180;
     list-style: none; 
     text-transform: capitalize;
@@ -223,7 +225,7 @@ a {
     color: #fff;
     padding-top: 30px
 }
-.footer-opper  {
+.footer-upper  {
     list-style: none;
     margin: 0px;
 
@@ -235,20 +237,20 @@ a {
     color: #ffd180;
 }
 
-.name {
+.user-name {
     color: #000;
     background-image: url(../img/icon-user.svg);
     background-repeat: no-repeat;
     padding-left: 20px;
    
 }
-.clous {
+.user-logout {
     background-image: url(../img/icon-logout.svg);
     background-repeat: no-repeat;
     color: #000;
     padding-left: 20px;
 }
-.usnav a {
+.user-service a {
     color: #32425c;
     font-size: 16px;
 }
@@ -257,7 +259,7 @@ a {
 .navigation a {
     color: #000;
 }
-.catalog  {
+.catalog-drill  {
     display: inline-block;
     color: #000;
 
@@ -268,7 +270,7 @@ a {
 .free a {
     color: #000;
 }
-.supply .a, .b {
+.supply .the-akm, .network {
     color: #000;
 
 }
