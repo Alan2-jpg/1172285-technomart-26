@@ -1,7 +1,6 @@
 body {
     margin: 0;
     padding: 0;
-    
     font-family: "Cuprum","PT+Sans",Arial, sans-serif;
     font-size: 14px;
     line-height: 24px;
@@ -13,25 +12,21 @@ a {
 }
 .menu-star {
     background-color: #293449;
-    
 }
 .logo {
     position: relative;
     padding: 14px 55px 10px;
     font-size: 24px;
-    font-family: "Cuprum", sans-serif;
     color: #fff;
     text-transform: uppercase;
     background-color: #ee3643;
     text-align: left;
-    font-weight: 300;
 }
 .search, .loop {
     color: #fff;
     padding-left: 40px;
     line-height: 60px;
     text-align: center;
-    padding-left: 40px;
     font-size: 17px;
     font-weight: 300;
 }
@@ -47,10 +42,8 @@ a {
     width: 160px;
     padding-left: 14px;
     color: #fff;
-    background-color: #ee3643;
     background-image: url(../img/icon-cart.svg);
     background-repeat: no-repeat;
-    
 }
 .order {
     width: 160px;
@@ -58,10 +51,6 @@ a {
     color: #fff;
     background-color: #63a63e;
     background-repeat: no-repeat;
-    margin-right: 50px;
-    border-right: 50px;
-    
-
 }
 .cart, .order, .bookmarks {
     text-align: right;
@@ -69,7 +58,6 @@ a {
     padding-right: 14px;
     font-size: 17px;
     font-weight: 300;
-   
 }
 .citi {
     padding-top: 20px;
@@ -86,9 +74,6 @@ a {
     background-repeat: no-repeat;
     color: #ee3643;
     padding-left: 25px;
-    
-
-    
 }
 .addres {
     color: #32425c;
@@ -103,7 +88,6 @@ a {
     background-repeat: no-repeat;
     padding-left: 30px;
     font-size: 21px;
-
 }
 .registration {
     color: #000;
@@ -114,7 +98,6 @@ a {
 .account {
     text-align: right;
     padding-right: 30px;
-    
 }
 .menu-two {
     color: #fff;
@@ -133,20 +116,17 @@ a {
     width: 930px;
     padding: 0;
     margin: 0;
-    
 }
 .about {
     padding-left: 20px;
     font-size: 30px;
     font-weight: 300;
-    
 }
 .article {
     text-transform: capitalize;
     font-size: 14px;
     padding-left: 20px;
     font-weight: 300;
-    
 }
 .traffic, a {
     list-style: none;
@@ -155,13 +135,11 @@ a {
 .header  {
     font-size: 30px;
     font-weight: 300;
-
 }
 .contacts, p {
     text-transform: capitalize;
     font-size: 14px;
     font-weight: 300;
-
 }
 .heder {
     text-transform: capitalize;
@@ -177,8 +155,6 @@ a {
     margin-top: 10px;
     margin-bottom: 100px;
     color: #fff;
-   
-
 }
 .email {
     width: 100px;
@@ -210,9 +186,6 @@ a {
 .upper-menu li a  {
     color: #ffd180;
     font-size: 18px;
-    font-weight: 300;
-    
-
 }
 .footer-lower {
     background-color: #33445a;
@@ -223,7 +196,6 @@ a {
     
     list-style: none;
     margin: 0px;
-
 }
 .e-mail {
     color: #ffd180;
@@ -237,7 +209,6 @@ a {
     background-image: url(../img/icon-user.svg);
     background-repeat: no-repeat;
     padding-left: 20px;
-   
 }
 .user-logout {
     background-image: url(../img/icon-logout.svg);
@@ -267,7 +238,6 @@ a {
 }
 .supply .the-akm, .network {
     color: #000;
-
 }
 .pro li{
     color: #000;
