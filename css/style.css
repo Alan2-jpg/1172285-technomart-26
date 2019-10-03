@@ -16,11 +16,18 @@ a {
 .logo {
     position: relative;
     padding: 14px 55px 10px;
+    height: 20px;
     font-size: 24px;
     color: #fff;
     text-transform: uppercase;
     background-color: #ee3643;
-    text-align: left;
+    text-align: top;
+    left: 40px;
+}
+.menu-star form {
+    position: relative;
+    left: 400px;
+    bottom: 30px;
 }
 .search, .loop {
     color: #fff;
@@ -53,6 +60,9 @@ a {
     background-repeat: no-repeat;
 }
 .cart, .order, .bookmarks {
+    position: relative;
+    bottom: 70px;
+    left: 900px;
     text-align: right;
     padding-top: 5px;
     padding-right: 14px;
@@ -61,12 +71,12 @@ a {
 }
 .citi {
     padding-top: 20px;
-    padding-bottom: 24px;
+    padding-bottom: 50px;
     background-color: #f4f7f9;
 }
 .internet {
     color: #ee3643;
-    text-align: left;
+    margin-left: 50px;
 }
 .phone p {
     font-size: 21px;
@@ -75,7 +85,15 @@ a {
     color: #ee3643;
     padding-left: 25px;
 }
+.phone {
+    position: relative;
+    left: 600px;
+    bottom: 70px;
+
+}
 .addres {
+    position: relative;
+    bottom: 60px;
     color: #32425c;
     font-size: 14px;
     text-transform: capitalize;
@@ -96,29 +114,40 @@ a {
     font-size: 21px;
 }
 .account {
+    position: relative;
     text-align: right;
     padding-right: 30px;
+    bottom: 150px;
+    
 }
 .menu-two {
+    position: relative;
+    bottom: 120px;
+    height: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
     color: #fff;
     background-color: #293449;
     text-transform: capitalize;
     font-size: 17px;
 }
 .menu-menu {
+    padding-top: 10px;
     color: #fff;
     text-align: center;
 }
 .nav a {
     padding-right: 25px;
+    color: #fff;
 }
 .shoping {
+    position: relative;
     width: 930px;
     padding: 0;
     margin: 0;
+    top: 310px;
 }
 .about {
-    padding-left: 20px;
     font-size: 30px;
     font-weight: 300;
 }
@@ -128,15 +157,24 @@ a {
     padding-left: 20px;
     font-weight: 300;
 }
-.traffic, a {
+.traffic a {
     list-style: none;
     color: #000;
 }
+
 .header  {
+    padding-left: 750px;
     font-size: 30px;
     font-weight: 300;
 }
-.contacts, p {
+.office {
+    position: relative;
+    left: 750px;
+}
+.map {
+    padding-left: 750px;
+}
+.contacts p  {
     text-transform: capitalize;
     font-size: 14px;
     font-weight: 300;
@@ -157,40 +195,67 @@ a {
     color: #fff;
 }
 .email {
-    width: 100px;
-    height: 40px;
+    position: relative;
     background-color: #ee3643;
     color: #fff;
-    margin-top: 10px;
-    margin-bottom: 100px;
-    padding: 10px
+    left: 750px;
+}
+.metod {
+    padding-left: 750px;
 }
 .footer-upper {
+    position: relative;
     background-color: #3d546e;
     color: #fff;
     list-style: none;
+    display: flex;
 }
 .address {
+    position: relative;
     color: #fff;
+    top: 40px;
 }
 .footer-menu {
+    position: relative;
+    left: 400px;
+    bottom: 10px;
     font-size: 18px;
     font-weight: 300;
 }
- .site-menu, li, a {
+ .site-menu, li a {
     color: #fff;
     font-size: 18px;
     font-weight: 300;
     text-transform: capitalize;
 }
 .upper-menu li a  {
+    position: relative;
     color: #ffd180;
     font-size: 18px;
+    left: 400px;
 }
 .footer-lower {
+    position: relative;
     background-color: #33445a;
     color: #fff;
     padding-top: 30px
+}
+.social-buttons {
+    position: relative;
+    text-align: center;
+    bottom: 50px;
+}
+.feedback {
+    position: relative;
+    text-align: right;
+    bottom: 100px;
+    right: 290px;
+}
+.design-copyright {
+    position: relative;
+    text-align: right;
+    bottom: 160px;
+    right: 100px;
 }
 .footer-upper {
     
@@ -203,7 +268,12 @@ a {
 .designer {
     color: #ffd180;
 }
-
+.user {
+    position: relative;
+    left: 900px;
+    bottom: 100px;
+    list-style: none;
+}
 .user-name {
     color: #000;
     background-image: url(../img/icon-user.svg);
@@ -217,6 +287,10 @@ a {
     padding-left: 20px;
 }
 .user-service a {
+    position: relative;
+    left: 900px;
+    bottom: 100px;
+    list-style: none;
     color: #32425c;
     font-size: 16px;
 }
@@ -228,6 +302,7 @@ a {
 .catalog-drill  {
     display: inline-block;
     color: #000;
+    border: 2px solid #f4f7f9;
 
 }
 .new a {
